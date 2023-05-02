@@ -1,0 +1,32 @@
+Routes
+1. Static Route 
+2. Dynamic Route => (route parameter {id}) & (function parameter {id})
+--------------------------------------------------------------------------------------------------
+URL Pattern for add, update, delete, view, detail
+1. /users
+2. /products/view/{id}
+3. /customers/update/{id}
+4. /students/add
+--------------------------------------------------------------------------------------------------
+Laravel Controller
+1. php artisan make:controller filename
+2. php artisan make:model filename
+3. php artisan make:factory filename
+--------------------------------------------------------------------------------------------------
+@ and {{ }}
+@ = PHP Statement
+{{ }} = echo and output
+
+--------------------------------------------------------------------------------------------------
+Laravel Authentication
+composer require laravel/ui "3.*"
+
+php artisan ui bootstrap --auth (go to apps/Providers/AppServiceProvider.php) to add some code 
+php artisan ui vue --auth
+php artisan ui react --auth
+
+npm install
+npm run dev
+npm run dev
+--------------------------------------------------------------------------------------------------
+php artisan migrate:fresh --seed
